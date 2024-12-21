@@ -1,0 +1,163 @@
+/*
+** Stylesheet voor:
+** voorbeeld website
+*/
+html, body {
+margin: 0px;
+padding: 0px;
+height:635px;
+width:1367px;
+    }
+
+div#container {
+width:1365px;
+margin: auto;
+margin-top: 5px;
+    height:637px;
+}
+
+header {
+width:1367px;
+height:100px;
+margin: auto;
+    margin-top: 0px;
+}
+
+section{
+height:410px;
+display: table;
+width:1367;
+}
+
+article {
+width: 920px;
+padding:0px;
+margin-right:10px;
+     font-family:"courier new";
+height:390px;
+    padding-top:30px;
+float: right;
+    background-color:white;
+    text-align:center;
+        border-top-style:solid;
+    border-color:#cfb997;
+    padding-bottom:35px;
+    border-width:5px;
+}
+ 
+nav {
+width:1017px;
+height:60px;
+    float:right;
+}
+
+aside{
+    width:399px;
+    height:390px;
+    padding-bottom:35px;
+    padding:10px;
+     font-family:"courier new";
+    margin-top:0px;
+    float:left;
+    margin-left:10px;
+    padding-top:40px;
+    background-color:white;
+        border-top-style:solid;
+    border-color:#cfb997;
+    border-width:5px;
+}
+
+p{
+font-size:20px;
+    }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top:25px;
+    height:55px;
+  overflow: hidden;
+  background-color:#ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+     font-family:"courier new";
+  color: black;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#cfb997;
+}
+
+td{
+    font-color:black;
+    font-size:10px;
+    }
+tr{
+    background-color:white;
+    }
+
+ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding-top:25px;
+  overflow: hidden;
+  background-color:#efe7db;
+}
+
+li2 a {
+  display: block;
+     font-family:"courier new";
+  color: black;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li2 a:hover {
+  background-color:#cfb997;
+}
+
+footer {
+width:1367px;
+height:60px;
+background-image:url("afbeelding/footerachtergrond.jpg");
+    margin-top:10px;
+    border-top-style:solid;
+    border-color:#cfb997;
+    border-width:5px;
+}
+ 
+div#footer-links {
+float: left;
+         font-family:"courier new";
+padding: 10px;
+padding-top:25px;
+    padding-left:80px;
+}
+ 
+div#footer-rechts {
+float: right;
+    font-color:black;
+padding: 10px;
+         font-family:"courier new";
+padding-top:25px;
+    padding-right:80px;
+}
+
+
+
+
+
+
+
